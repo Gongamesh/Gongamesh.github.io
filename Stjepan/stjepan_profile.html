@@ -14,7 +14,13 @@
     </header>
 
     <div class="row">
-        <ul class="nav">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="stjepan_profile.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="images.html">Slike</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://mijok-lovric.netlify.app/">Mijok i Lovrić</a>
             </li>
@@ -22,27 +28,16 @@
                 <a class="nav-link" href="https://arac222.github.io/CVSite/luka_aracic.html">Aračić</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="https://klanjz.github.io/Robert_Klanjscek/">Klanjšček</a>
             </li>
         </ul>
     </div>
 
     <div class="row">
-        <div class="col-sm-3">
-            <img src="Stjepan foto.jpg" id="myImg" alt="jpg" style="width: 250px; height: 250px;">
-            <div id="myModal" class="modal">
-
-                <!-- The Close Button -->
-                <span class="close">&times;</span>
-              
-                <!-- Modal Content (The Image) -->
-                <img class="modal-content" id="img01">
-              
-                <!-- Modal Caption (Image Text) -->
-                <div id="caption"></div>
-              </div>
-        </div>
         <div class="col">
+            <img src="Stjepan foto.jpg" id="myImg" alt="jpg" title="profile.jpg" style="width: auto; height: 250px; margin-left: 200px;">
+        </div>
+        <div class="col" style="border-style: dashed; border-color: red;">
             <h4>Opće informacije:</h4>
             <ul>
                 <li>Spol: M</li>
@@ -64,15 +59,15 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-">
+        <div class="col" style="margin-left: 150px;">
             <audio controls style="width: 250px;">
                 <source src="audio_kovacevic.wav" type="">
             </audio>
         </div>
     </div>
     <div class="row">
-        <div class="col">
-            <h4>
+        <div class="col" style="border-style: dashed; border-color: red;">
+            <h4 style="margin-left: 10px;">
                 Vještine:
             </h4>
             <ul>
@@ -92,15 +87,16 @@
             </ul>
         </div>
         <div class="col">
-            <iframe width="420" height="315"
+            <iframe width="420" height="315" style="margin-left: 50px;"
                 src="https://www.youtube.com/embed/tgbNymZ7vqY">
             </iframe>
         </div>
     </div>
     
     <footer>
-        <p>
-            Ovaj projekt je izrađen u sklopu projekta za kolegij Multimedijska tehnika.
+        <br>
+        <p style="margin-left: 50px;">
+            Ovaj projekt je izrađen u sklopu projekta za kolegij <a href="https://www.ferit.unios.hr/upisi-i-studijski-programi/strucni-prijediplomski-studij#racunarstvo#SR6-02">Multimedijska tehnika</a>.
         </p>
     </footer>
 </body>
